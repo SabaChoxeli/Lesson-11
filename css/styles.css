@@ -27,7 +27,6 @@ ol {
 header {
   background-color: #0020f4;
   height: 387px;
-  position: relative;
 }
 
 .header {
@@ -66,14 +65,79 @@ nav ul li {
   color: #171717;
 }
 
+.section {
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-img {
   max-width: 1195px;
   width: 100%;
   height: 600px;
-  position: absolute;
-  top: 25%;
-  left: 20%;
+  margin-top: -160px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.section {
+section h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  color: #171717;
+}
+
+.item {
+  max-width: 219px;
+  width: 100%;
+  height: 219px;
+  margin-left: 25px;
+}
+
+.mid-imgs {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+section p {
+  max-width: 951px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.damatebiti {
+  background-color: #0a22f4;
+  width: 310px;
+  height: 55px;
+  color: #ffffff;
+  padding-left: 65px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  border-radius: 28px;
+  margin-bottom: 180px;
+}
+
+footer {
+  background-color: #0a22f4;
+}
+
+.left-div h4 {
+  color: #ffffff;
+  font-size: 32px;
+  width: 162px;
+  height: 38px;
+}
+
+.loremi {
+  color: #ffffff;
+  font-size: 16px;
+  /* max-width: 463px;
+  width: 100%; */
+  height: 99px;
+  width: 463px;
+}
+
+footer iframe {
+  max-width: 463px;
+  width: 100%;
+  height: 197px;
 }
