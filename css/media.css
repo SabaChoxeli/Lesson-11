@@ -62,4 +62,7 @@
   .nav-img {
     display: flex;
   }
+  .mail img {
+    margin-left: 0px;
+  }
 }
