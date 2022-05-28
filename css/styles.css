@@ -78,7 +78,6 @@ nav ul li {
 .main-img {
   max-width: 1195px;
   width: 100%;
-  height: 600px;
   margin-top: -160px;
   margin-left: auto;
   margin-right: auto;
@@ -216,7 +215,8 @@ footer iframe {
 }
 
 .right-div input {
-  width: 463px;
+  max-width: 463px;
+  width: 100%;
   height: 60px;
   border: transparent;
   background-color: #0a22f4;

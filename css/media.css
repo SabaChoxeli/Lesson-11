@@ -12,6 +12,13 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .item {
+    max-width: 162px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
   .last-img {
     display: none;
   }
@@ -19,9 +26,33 @@
   .third-p {
     display: none;
   }
+
+  footer h4 {
+    margin-left: 20px;
+  }
+
   .upper-footer {
     flex-direction: column-reverse;
   }
+
+  .right-div {
+    display: block;
+  }
+
+  .inputs {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .left-div {
+    margin-left: 20px;
+  }
+
+  footer iframe {
+    max-width: 350px;
+    width: 100%;
+  }
+
   .lower-footer {
     flex-direction: column-reverse;
   }
